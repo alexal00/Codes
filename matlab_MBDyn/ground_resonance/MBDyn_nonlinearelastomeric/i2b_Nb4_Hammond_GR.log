@@ -1,0 +1,237 @@
+output frequency: 1
+structural node: 0 0 0 0 euler123 -0 0 0
+structural node: 100 0 0 0 euler123 -0 0 0
+structural node: 200 0 0 0 euler123 -0 0 0
+structural node: 10000 0 0 2 euler123 -0 0 0
+structural node: 11000 1.86636e-17 0.3048 2 euler123 -0 0 90
+structural node: 11080 9.33181e-18 0.1524 2 euler123 -180 0 90
+structural node: 11090 9.33181e-18 0.1524 2 euler123 -180 0 90
+structural node: 11095 -0.1143 0.1905 2 euler123 -0 0 90
+structural node: 11085 0.1143 0.1905 2 euler123 -0 0 90
+structural node: 12000 -0.3048 3.73272e-17 2 euler123 -0 0 180
+structural node: 12080 -0.1524 1.86636e-17 2 euler123 -180 0 7.01671e-15
+structural node: 12090 -0.1524 1.86636e-17 2 euler123 -180 0 7.01671e-15
+structural node: 12095 -0.1905 -0.1143 2 euler123 -0 0 180
+structural node: 12085 -0.1905 0.1143 2 euler123 -0 0 180
+structural node: 13000 -5.59909e-17 -0.3048 2 euler123 -0 0 -90
+structural node: 13080 -2.79954e-17 -0.1524 2 euler123 -180 0 -90
+structural node: 13090 -2.79954e-17 -0.1524 2 euler123 -180 0 -90
+structural node: 13095 0.1143 -0.1905 2 euler123 -0 0 -90
+structural node: 13085 -0.1143 -0.1905 2 euler123 -0 0 -90
+structural node: 14000 0.3048 -7.46545e-17 2 euler123 -0 0 -1.40334e-14
+structural node: 14080 0.1524 -3.73272e-17 2 euler123 -180 0 -180
+structural node: 14090 0.1524 -3.73272e-17 2 euler123 -180 0 -180
+structural node: 14095 0.1905 0.1143 2 euler123 -0 0 -1.40334e-14
+structural node: 14085 0.1905 -0.1143 2 euler123 -0 0 -1.40334e-14
+body: 100 100 4743 0 0 0 0 0 0 0 0 0 0 0 0
+body: 200 200 3283.6 0 0 0 0 0 0 0 0 0 0 0 0
+clamp: 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 0 1
+totaljoint: 100 0 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 100 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 0 1 1 0 0 0 1 1 1 0 0 0
+totaljoint: 110 0 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 100 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0
+totaljoint: 200 100 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 200 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 0 1 0 0 0 1 1 1 0 0 0
+totaljoint: 210 100 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 200 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0
+deformabledisplacementjoint: 101 0 0 0 0 1 0 0 0 1 0 0 0 1 100 0 0 0 1 0 0 0 1 0 0 0 1
+deformabledisplacementjoint: 201 100 0 0 0 1 0 0 0 1 0 0 0 1 200 0 0 0 1 0 0 0 1 0 0 0 1
+totaljoint: 10000 200 0 0 2 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 10000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 1
+body: 11000 11000 94.9 3.04636 0 0 0 0 0 0 880.704 0 0 0 1084.7
+totaljoint: 11030 10000 1.86636e-17 0.3048 0 6.12323e-17 -1 0 1 6.12323e-17 0 0 0 1 6.12323e-17 -1 0 1 6.12323e-17 0 0 0 1 11000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+body: 11095 11095 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 11080 11080 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 12085 12085 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 12090 12090 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+sphericalhinge: 11095 11000 0.0762 0.1524 0 1 0 0 0 1 0 0 0 1 11095 0.1905 0.0381 0 1 0 0 0 1 0 0 0 1
+totaljoint: 12090 10000 -0.2286 2.79954e-17 0 1 -1.22465e-16 0 -1.22465e-16 -1 0 0 0 -1 1 -1.22465e-16 0 -1.22465e-16 -1 0 0 0 -1 12090 -0.0762 -4.62223e-33 0 1 0 0 0 1 -0 0 -0 1 1 0 0 0 1 -0 0 -0 1 1 1 1 0 0 0 1 1 0 0 0 0
+sphericalhinge: 12092 11095 -0.1905 -0.0381 0 -6.12323e-17 -1 0 -1 6.12323e-17 0 0 0 -1 12090 0.0762 0 0 1 0 0 0 1 -0 0 -0 1
+totaljoint: 11080 10000 1.39977e-17 0.2286 0 -6.12323e-17 -1 0 -1 6.12323e-17 0 0 0 -1 -6.12323e-17 -1 0 -1 6.12323e-17 0 0 0 -1 11080 -0.0762 -2.31112e-33 0 1 0 -0 0 1 0 -0 0 1 1 0 -0 0 1 0 -0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+sphericalhinge: 12060 12000 0.0762 -0.1524 0 1 0 0 0 1 0 0 0 1 12085 0.1905 -0.0381 0 1 0 0 0 1 0 0 0 1
+sphericalhinge: 12082 12085 -0.1905 0.0381 0 -6.12323e-17 1 0 1 6.12323e-17 -0 0 0 -1 11080 0.0762 0 -0 1 0 -0 0 1 0 -0 0 1
+totaljoint: 11130 10000 1.86636e-17 0.3048 0 6.12323e-17 -1 0 1 6.12323e-17 0 0 0 1 6.12323e-17 -1 0 1 6.12323e-17 0 0 0 1 11000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1
+body: 12000 12000 94.9 3.04636 0 0 0 0 0 0 880.704 0 0 0 1084.7
+totaljoint: 12030 10000 -0.3048 3.73272e-17 0 -1 -1.22465e-16 0 1.22465e-16 -1 0 0 0 1 -1 -1.22465e-16 0 1.22465e-16 -1 0 0 0 1 12000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+body: 12095 12095 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 12080 12080 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 13085 13085 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 13090 13090 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+sphericalhinge: 12095 12000 0.0762 0.1524 0 1 0 0 0 1 0 0 0 1 12095 0.1905 0.0381 0 1 0 0 0 1 0 0 0 1
+totaljoint: 13090 10000 -4.19931e-17 -0.2286 0 1.83697e-16 1 0 1 -1.83697e-16 0 0 0 -1 1.83697e-16 1 0 1 -1.83697e-16 0 0 0 -1 13090 -0.0762 -3.08149e-33 -0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+sphericalhinge: 13092 12095 -0.1905 -0.0381 0 -6.12323e-17 -1 0 -1 6.12323e-17 -0 0 0 -1 13090 0.0762 0 0 1 0 0 0 1 0 0 0 1
+totaljoint: 12080 10000 -0.2286 2.79954e-17 0 1 -1.22465e-16 0 -1.22465e-16 -1 0 0 0 -1 1 -1.22465e-16 0 -1.22465e-16 -1 0 0 0 -1 12080 -0.0762 -4.62223e-33 0 1 0 0 0 1 -0 0 -0 1 1 0 0 0 1 -0 0 -0 1 1 1 1 0 0 0 1 1 0 0 0 0
+sphericalhinge: 13060 13000 0.0762 -0.1524 0 1 0 0 0 1 0 0 0 1 13085 0.1905 -0.0381 0 1 0 0 0 1 0 0 0 1
+sphericalhinge: 13082 13085 -0.1905 0.0381 0 -6.12323e-17 1 -0 1 6.12323e-17 0 0 0 -1 12080 0.0762 0 0 1 0 0 0 1 -0 0 -0 1
+totaljoint: 12130 10000 -0.3048 3.73272e-17 0 -1 -1.22465e-16 0 1.22465e-16 -1 0 0 0 1 -1 -1.22465e-16 0 1.22465e-16 -1 0 0 0 1 12000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1
+body: 13000 13000 94.9 3.04636 0 0 0 0 0 0 880.704 0 0 0 1084.7
+totaljoint: 13030 10000 -5.59909e-17 -0.3048 0 -1.83697e-16 1 0 -1 -1.83697e-16 0 0 0 1 -1.83697e-16 1 0 -1 -1.83697e-16 0 0 0 1 13000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+body: 13095 13095 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 13080 13080 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 14085 14085 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 14090 14090 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+sphericalhinge: 13095 13000 0.0762 0.1524 0 1 0 0 0 1 0 0 0 1 13095 0.1905 0.0381 0 1 0 0 0 1 0 0 0 1
+totaljoint: 14090 10000 0.2286 -5.59909e-17 0 -1 2.44929e-16 0 2.44929e-16 1 0 0 0 -1 -1 2.44929e-16 0 2.44929e-16 1 0 0 0 -1 14090 -0.0762 -9.24446e-33 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+sphericalhinge: 14092 13095 -0.1905 -0.0381 0 -6.12323e-17 -1 -0 -1 6.12323e-17 0 0 0 -1 14090 0.0762 0 0 1 0 0 0 1 0 0 0 1
+totaljoint: 13080 10000 -4.19931e-17 -0.2286 0 1.83697e-16 1 0 1 -1.83697e-16 0 0 0 -1 1.83697e-16 1 0 1 -1.83697e-16 0 0 0 -1 13080 -0.0762 -3.08149e-33 -0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+sphericalhinge: 14060 14000 0.0762 -0.1524 0 1 0 0 0 1 0 0 0 1 14085 0.1905 -0.0381 0 1 0 0 0 1 0 0 0 1
+sphericalhinge: 14082 14085 -0.1905 0.0381 0 -6.12323e-17 1 0 1 6.12323e-17 0 0 0 -1 13080 0.0762 0 0 1 0 0 0 1 0 0 0 1
+totaljoint: 13130 10000 -5.59909e-17 -0.3048 0 -1.83697e-16 1 0 -1 -1.83697e-16 0 0 0 1 -1.83697e-16 1 0 -1 -1.83697e-16 0 0 0 1 13000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1
+body: 14000 14000 94.9 3.04636 0 0 0 0 0 0 880.704 0 0 0 1084.7
+totaljoint: 14030 10000 0.3048 -7.46545e-17 0 1 2.44929e-16 0 -2.44929e-16 1 0 0 0 1 1 2.44929e-16 0 -2.44929e-16 1 0 0 0 1 14000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+body: 14095 14095 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 14080 14080 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 11085 11085 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+body: 11090 11090 1e-05 0 0 0 1e-05 0 0 0 1e-05 0 0 0 1e-05
+sphericalhinge: 14095 14000 0.0762 0.1524 0 1 0 0 0 1 0 0 0 1 14095 0.1905 0.0381 0 1 0 0 0 1 0 0 0 1
+totaljoint: 11090 10000 1.39977e-17 0.2286 0 -6.12323e-17 -1 0 -1 6.12323e-17 0 0 0 -1 -6.12323e-17 -1 0 -1 6.12323e-17 0 0 0 -1 11090 -0.0762 -2.31112e-33 0 1 0 -0 0 1 0 -0 0 1 1 0 -0 0 1 0 -0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+sphericalhinge: 11092 14095 -0.1905 -0.0381 0 1.83697e-16 -1 0 -1 -1.83697e-16 0 0 0 -1 11090 0.0762 0 -0 1 0 -0 0 1 0 -0 0 1
+totaljoint: 14080 10000 0.2286 -5.59909e-17 0 -1 2.44929e-16 0 2.44929e-16 1 0 0 0 -1 -1 2.44929e-16 0 2.44929e-16 1 0 0 0 -1 14080 -0.0762 -9.24446e-33 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 1 1 1 0 0 0 1 1 0 0 0 0
+sphericalhinge: 11060 11000 0.0762 -0.1524 0 1 0 0 0 1 0 0 0 1 11085 0.1905 -0.0381 0 1 0 0 0 1 0 0 0 1
+sphericalhinge: 11082 11085 -0.1905 0.0381 0 1.83697e-16 1 0 1 -1.83697e-16 0 0 0 -1 14080 0.0762 0 0 1 0 0 0 1 0 0 0 1
+totaljoint: 14130 10000 0.3048 -7.46545e-17 0 1 2.44929e-16 0 -2.44929e-16 1 0 0 0 1 1 2.44929e-16 0 -2.44929e-16 1 0 0 0 1 14000 0 0 0 1 0 0 0 1 0 0 0 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1
+deformablehinge: 11031 11080 -0.0762 -2.31112e-33 0 1 0 -0 0 1 0 -0 0 1 11090 -0.0762 -2.31112e-33 0 1 0 -0 0 1 0 -0 0 1
+deformablehinge: 12031 12080 -0.0762 -4.62223e-33 0 1 0 0 0 1 -0 0 -0 1 12090 -0.0762 -4.62223e-33 0 1 0 0 0 1 -0 0 -0 1
+deformablehinge: 13031 13080 -0.0762 -3.08149e-33 -0 1 0 0 0 1 0 0 0 1 13090 -0.0762 -3.08149e-33 -0 1 0 0 0 1 0 0 0 1
+deformablehinge: 14031 14080 -0.0762 -9.24446e-33 0 1 0 0 0 1 0 0 0 1 14090 -0.0762 -9.24446e-33 0 1 0 0 0 1 0 0 0 1
+struct node dofs: 0 6 18 30 36 48 60 72 84 96 108 120 132 144 156 168 180 192 204 216 228 240 252 264
+struct node eqs: 0 12 24 30 42 54 66 78 90 102 114 126 138 150 162 174 186 198 210 222 234 246 258 270
+struct node momentum dofs: 12 24 42 54 66 78 90 102 114 126 138 150 162 174 186 198 210 222 234 246 258 270
+struct node momentum eqs: 6 18 36 48 60 72 84 96 108 120 132 144 156 168 180 192 204 216 228 240 252 264
+struct displacement node dofs: 0 6 18 30 36 48 60 72 84 96 108 120 132 144 156 168 180 192 204 216 228 240 252 264
+struct displacement node eqs: 0 12 24 30 42 54 66 78 90 102 114 126 138 150 162 174 186 198 210 222 234 246 258 270
+struct displacement node momentum dofs: 12 24 42 54 66 78 90 102 114 126 138 150 162 174 186 198 210 222 234 246 258 270
+struct displacement node momentum eqs: 6 18 36 48 60 72 84 96 108 120 132 144 156 168 180 192 204 216 228 240 252 264
+struct node labels: 0 100 200 10000 11000 11080 11090 11095 11085 12000 12080 12090 12095 12085 13000 13080 13090 13095 13085 14000 14080 14090 14095 14085
+struct displacement node labels: 0 100 200 10000 11000 11080 11090 11095 11085 12000 12080 12090 12095 12085 13000 13080 13090 13095 13085 14000 14080 14090 14095 14085
+Symbol table:
+  const integer AF_LINK = 92
+  const integer AF_ROD = 95
+  const integer AIRFRAME_X = 100
+  const integer AIRFRAME_Y = 200
+  const integer AJ = 6
+  const real ALPHA = 10.
+  const integer AN = 4
+  const real A_BAR = 0.1524
+  const integer A_NOD = 50
+  const integer BD_LINK = 82
+  const integer BD_ROD = 85
+  const integer BLADE_1 = 11000
+  const integer BLADE_2 = 12000
+  const integer BLADE_3 = 13000
+  const integer BLADE_4 = 14000
+  const integer BLADE_CM = 40
+  const integer BLADE_FLAP_OFFSET = 30
+  const real B_BAR = 0.1524
+  const integer B_NOD = 60
+  const integer CL_BLADE_ROOT_FAILED = 99
+  const integer CL_BLADE_ROOT_FRIC = 97
+  const integer CL_BLADE_ROOT_OK = 98
+  integer CURR_BLADE = 14000
+  integer CURR_CL_BLADE_ROOT = 98
+  const real C_BAR = 0.0762
+  const real C_BARA = 0.0762
+  const real C_BARB = 0.0762
+  const real C_BLADE_ROOT_X = 0.
+  const real C_BLADE_ROOT_Y = 0.
+  real C_BLADE_ROOT_Z = 1255.4
+  const integer C_NOD = 70
+  const real Cx = 51078.7
+  const real Cy = 25539.3
+  const real DAMP = 2.
+  const real DPSI = 1.5708
+  const real D_BAR = 0.1524
+  const integer D_NOD = 80
+  real FACT = 0.25
+  const bool FALSE = 0
+  const real F_BAR = 0.1524
+  const integer F_NOD = 90
+  const real GEOM = 0.81
+  const real GEOMIB = 0.026129
+  const integer GROUND = 0
+  const integer HUB = 10000
+  const integer IC = 50
+  integer INT_BLADE = 11000
+  const integer INT_MAX = 2147483647
+  const integer INT_MIN = -2147483648
+  const real J_BLADE_CM_X = 0.
+  const real J_BLADE_CM_Y = 0.
+  const real J_BLADE_CM_Z = 203.996
+  const real J_BLADE_Z = 1084.7
+  const real J_HUB_X = 0.
+  const real J_HUB_Z = 0.
+  const real K_BLADE_ROOT_X = 0.
+  const real K_BLADE_ROOT_Y = 0.
+  const real K_BLADE_ROOT_Z = 0.
+  const real Kx = 1.24048e+06
+  const real Ky = 1.24048e+06
+  const real M_AIRFRAME_X = 8026.6
+  const real M_AIRFRAME_Y = 3283.6
+  const real M_BLADE = 94.9
+  const real M_HUB = 0.
+  integer NXT_BLADE = 0
+  const integer N_B = 4
+  const integer N_GAUSS_POINTS_AERO = 5
+  const integer N_STEPS_PER_REV = 256
+  real OMEGA_0 = 3.
+  const real OMEGA_100 = 3.
+  const integer RAND_MAX = 2147483647
+  const real REAL_MAX = 1.79769e+308
+  const real REAL_MIN = 2.22507e-308
+  const real S_BLADE_Z = 289.1
+  integer Step = 0
+  const bool TRUE = 1
+  const real T_REV = 2.0944
+  real Time = 0.
+  real TimeStep = 0.
+  real Var = 0.
+  real XID_0 = 0.
+  real XI_0 = 0.002
+  real X_AF = -0.381
+  real X_BD = -0.381
+  const real X_BLADE_CM = 3.35116
+  const real X_BLADE_CM_REL = 3.04636
+  const real X_BLADE_FLAP_OFFSET = 0.3048
+  real Y_AF = -0.0762
+  real Y_BD = 0.0762
+  real Z_AF = 0.
+  real Z_BD = 0.
+  const real Z_HUB = 2.
+  const real deg2rad = 0.0174533
+  const real dt = 0.00818123
+  const real e = 2.71828
+  const real f = 3515.39
+  const real ft2m = 0.3048
+  const real in2m = 0.0254
+  const real in2mm = 25.4
+  const real kg2lb = 2.20462
+  const real kg2slug = 0.0685218
+  const real lb2kg = 0.453592
+  const real m2ft = 3.28084
+  const real m2in = 39.3701
+  const real mm2in = 0.0393701
+  const real pi = 3.14159
+  const real rad2deg = 57.2958
+  const real slug2kg = 14.5939
+  const real x_0 = 0.
+  const real xd_0 = 0.
+  const real y_0 = 0.
+  const real yd_0 = 0.
+Environment:
+  MBDYNVARS=const real OMEGA_100 = 3; const real A_BAR = 0.1524; const real B_BAR = 0.1524; const real C_BAR = 0.0762; const real C_BARA = 0.0762; const real C_BARB = 0.0762; const real D_BAR = 0.1524; const real F_BAR = 0.1524; const real GEOM = 0.81; const real GEOMIB = 0.026129
+  SHELL=/bin/bash
+  WSL2_GUI_APPS_ENABLED=1
+  WSL_DISTRO_NAME=Ubuntu-20.04
+  NAME=DESKTOP-5NRP5EA
+  PWD=/mnt/c/Users/aasal/Documents/Universidad/Master/Thesis/Codes/mbdyn_gr
+  LOGNAME=ale
+  HOME=/home/ale
+  LANG=C.UTF-8
+  WSL_INTEROP=/run/WSL/842444_interop
+  WAYLAND_DISPLAY=wayland-0
+  TERM=xterm-256color
+  USER=ale
+  DISPLAY=:0
+  SHLVL=0
+  XDG_RUNTIME_DIR=/run/user/1000/
+  WSLENV=
+  PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files/MATLAB/R2023b/bin/win64:/mnt/c/Batch:/mnt/c/Program Files/ImageMagick-7.1.0-Q16-HDRI:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/WINDOWS/system32:/mnt/c/WINDOWS:/mnt/c/WINDOWS/System32/Wbem:/mnt/c/WINDOWS/System32/WindowsPowerShell/v1.0/:/mnt/c/WINDOWS/System32/OpenSSH/:/mnt/c/Program Files/AutoFirma/AutoFirma:/mnt/c/Program Files/gs/gs9.56.1/bin:/mnt/c/Program Files/Docker/Docker/resources/bin:/mnt/c/Program Files/MATLAB/R2023b/bin:/mnt/c/Users/aasal/AppData/Local/Microsoft/WindowsApps:/mnt/c/Program Files/Intel/WiFi/bin/:/mnt/c/Program Files/Common Files/Intel/WirelessCommon/:/mnt/c/Users/aasal/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/aasal/AppData/Local/Programs/MiKTeX/miktex/bin/x64/
+  DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
+  HOSTTYPE=x86_64
+  PULSE_SERVER=unix:/mnt/wslg/PulseServer
+  _=/home/ale/mbdyn/mbdyn/mbdyn
